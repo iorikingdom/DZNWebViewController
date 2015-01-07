@@ -59,6 +59,7 @@ typedef NS_OPTIONS(NSUInteger, DZNsupportedWebActions) {
 /** YES if both, the navigation and tool bars should hide when panning vertically. Default is YES. */
 @property (nonatomic) BOOL hideBarsWithGestures;
 
+@property (nonatomic,assign) CGFloat loadingProcess;
 ///------------------------------------------------
 /// @name Initialization
 ///------------------------------------------------
