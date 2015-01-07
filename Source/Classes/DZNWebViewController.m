@@ -664,7 +664,10 @@ static char DZNWebViewControllerKVOContext = 0;
         }];
     }
     
-    _loadingProcess = progress;
+    if (_delegate!=nil && [_delegate respondsToSelector:@selector(updateProcess:)]) {
+        [_delegate updateProcess:progress];
+    }
+    
     [self.progressView setProgress:progress animated:YES];
 }
 
