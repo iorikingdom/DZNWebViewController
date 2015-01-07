@@ -664,7 +664,7 @@ static char DZNWebViewControllerKVOContext = 0;
         }];
     }
     
-    _loadingProcess = progress;
+    self.loadingProcess = progress;
     [self.progressView setProgress:progress animated:YES];
 }
 
