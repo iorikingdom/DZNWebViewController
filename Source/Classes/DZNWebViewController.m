@@ -147,7 +147,7 @@ static char DZNWebViewControllerKVOContext = 0;
             webViewConfiguration = [WKWebViewConfiguration new];
         }
         
-        DZNWebView *webView = [[DZNWebView alloc] initWithFrame:self.view.bounds configuration:[WKWebViewConfiguration new]];
+        DZNWebView *webView = [[DZNWebView alloc] initWithFrame:self.view.bounds configuration:webViewConfiguration];
         
         
         webView.backgroundColor = [UIColor whiteColor];
