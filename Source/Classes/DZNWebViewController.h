@@ -43,6 +43,8 @@ typedef NS_OPTIONS(NSUInteger, DZNsupportedWebActions) {
 
 -(void)updateProcess:(CGFloat)process;
 
+-(WKWebViewConfiguration *)loadWebViewConfiguration;
+
 @end
 
 /**
