@@ -55,6 +55,7 @@ install_resource()
                     install_resource "../../../Source/Resources/dzn_icn_activity_link@2x~ipad.png"
                     install_resource "../../../Source/Resources/dzn_icn_activity_opera@2x.png"
                     install_resource "../../../Source/Resources/dzn_icn_activity_opera@2x~ipad.png"
+                    install_resource "../../../Source/Resources/dzn_icn_activity_safari@2x.png"
                     install_resource "../../../Source/Resources/dzn_icn_activity_safari@2x~ipad.png"
                     install_resource "../../../Source/Resources/dzn_icn_toolbar_action.png"
                     install_resource "../../../Source/Resources/dzn_icn_toolbar_action@2x.png"

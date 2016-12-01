@@ -10,7 +10,284 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>00983AC31D1D327E79172C09</key>
+		<key>00992094D449B82BFE521790</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>489DE318E0BE706769B0A255</string>
+				<string>0C5667C37C643E1F7DD34234</string>
+				<string>77C1293EC1045853E9890F1C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>060EE6D168CB06AB0907F49D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F9F02554DD20416666AE8F68</string>
+			<key>buildPhases</key>
+			<array>
+				<string>7BEFEC1D3363176AA500EED6</string>
+				<string>69CF079DFC013721B50A3EF8</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>B20259E709BA1E5E2CB9B864</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>D23D81F62ACDAA0D78B22DCA</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>0ADD65D0C66E2BC1BD5BAC11</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>en.lproj</string>
+			<key>path</key>
+			<string>Source/Resources/en.lproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0C5667C37C643E1F7DD34234</key>
+		<dict>
+			<key>fileRef</key>
+			<string>631330A98DE7D3AC6A0F1D78</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>11A49D7CD845C2046617D881</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>DZNWebViewController.m</string>
+			<key>path</key>
+			<string>Source/Classes/DZNWebViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12F7014E1AC3F7AC0A0F696C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>11A49D7CD845C2046617D881</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>13566D3EE0324E1BC41C95A4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6F34DEA9389058F3F93B9970</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>167242C1C6CDE3EC47B3FB40</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-DZNWebViewController.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>184335DCDEA903E14D9B69A4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-environment.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>223BE380810D19655A7557C8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_toolbar_forward@2x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_toolbar_forward@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25E4569ABE690F1197CDA5E1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_toolbar_reload@2x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_toolbar_reload@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>261D7B11D5C334CC3001232E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E8076C68AC3506FE1F55385F</string>
+				<string>77C0667D535E0909871E8EED</string>
+				<string>13566D3EE0324E1BC41C95A4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>29EA6B754BCAC07F6C97C521</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_safari@2x~ipad.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_safari@2x~ipad.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2BD9BBCD0CDCD76A0C4FD13F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD0A5778901D1F5D38C931B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2CEDB7C2CA6E94C27228A8A7</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>69214F9058C6702C2234F435</string>
+				<string>7C9D3F5A208ABC8B0F0675D4</string>
+				<string>12F7014E1AC3F7AC0A0F696C</string>
+				<string>EC4475FC84960C3E274CBC92</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2EC87CD0A7605389E9F1A5F1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_dolphin@2x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_dolphin@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2F372510FAD32C2AF1851CCA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>50F3AA83F6F772402F9EC76C</string>
+				<string>F51C082400401E76F31FCBCF</string>
+				<string>77124B2EDD31A43571D1BB67</string>
+				<string>3A423D280596CA74C739EACF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Examples/Sample/Pods/Target Support Files/Pods-DZNWebViewController</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35BC6AFB18B7B05B084F6BBA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DEDC09ACF0D5C9FDA6963F74</string>
+				<string>40B6E3113023B003AB8CD381</string>
+				<string>C7C7FA4ADEFEF38FE6AA137B</string>
+				<string>2EC87CD0A7605389E9F1A5F1</string>
+				<string>3E270E0684DDEEAEF0DE2280</string>
+				<string>D6F1572F7C8A163BBF469114</string>
+				<string>4537B42F60528ECE04A0B67B</string>
+				<string>E6BA76B55DC931D7C3FF7632</string>
+				<string>83633C0014F84EDA90584B18</string>
+				<string>623FA5E9F386B8C7DF5FCB8B</string>
+				<string>29EA6B754BCAC07F6C97C521</string>
+				<string>7DF077DE5F6704B25467862E</string>
+				<string>EF18671346DA073675CA3870</string>
+				<string>EC72286D346A2CFFE781138C</string>
+				<string>FCB28C339A32828D635E49A0</string>
+				<string>ACF8F7406C2FE95403DE0104</string>
+				<string>FC694D639C08E81FDD3ED757</string>
+				<string>EFD63726D6A6EFDF9D871E22</string>
+				<string>223BE380810D19655A7557C8</string>
+				<string>797D09502EBA880224FCB104</string>
+				<string>40818501EAB22367ADFB7E35</string>
+				<string>25E4569ABE690F1197CDA5E1</string>
+				<string>6314A3AC3A4B46A587C1954F</string>
+				<string>83B3DC5AA1B5D106A1ECD845</string>
+				<string>690626E999B65865ABFBC7F0</string>
+				<string>FAD64E9115270D63A618110D</string>
+				<string>0ADD65D0C66E2BC1BD5BAC11</string>
+				<string>EB2E2AB7460D364B0BF4663A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A423D280596CA74C739EACF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-DZNWebViewController-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3E270E0684DDEEAEF0DE2280</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -23,27 +300,289 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0487E5D9EA96FCE4429BC0CD</key>
+		<key>3FF547B5D7CA7122FFC77C8F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>63845E30FDFF6B0A2D5F7DE2</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>DZNPolyActivity.m</string>
+			<key>path</key>
+			<string>Source/Classes/DZNPolyActivity.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>04C448F33EFD7ECBBFACBF92</key>
+		<key>40818501EAB22367ADFB7E35</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>dzn_icn_toolbar_action.png</string>
+			<string>dzn_icn_toolbar_reload.png</string>
 			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_action.png</string>
+			<string>Source/Resources/dzn_icn_toolbar_reload.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>095242BF488A8F4A20919A79</key>
+		<key>40B6E3113023B003AB8CD381</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_chrome@2x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_chrome@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4537B42F60528ECE04A0B67B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_link@2x~ipad.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_link@2x~ipad.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>489DE318E0BE706769B0A255</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CD0A5778901D1F5D38C931B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4B0D8CA8F9BB1FF5F8FDFF0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DZNPolyActivity.h</string>
+			<key>path</key>
+			<string>Source/Classes/DZNPolyActivity.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4C5D16CBA8587A7E5FE7DC29</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>50F3AA83F6F772402F9EC76C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-DZNWebViewController.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B25D61AA9800BB616F07184</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>944B8DFE58EB10B815B6DD31</string>
+				<string>7D5E1F1062506F75CC6109CB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>5D1330EC72F1909F6DDED80F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>623FA5E9F386B8C7DF5FCB8B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_safari@2x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_safari@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>631330A98DE7D3AC6A0F1D78</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>6314A3AC3A4B46A587C1954F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_toolbar_reload@3x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_toolbar_reload@3x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>661D528838509E39B7CE74D1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>DA0F7D9CA81A16E97160F44E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>66E5113B0B379652BAA7CA00</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>A267B8507A4014B520B818E9</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>8145AF67BCA4DD5287A8AE6E</string>
+			<key>remoteInfo</key>
+			<string>Pods-DZNWebViewController</string>
+		</dict>
+		<key>690626E999B65865ABFBC7F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_toolbar_stop@2x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_toolbar_stop@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>69214F9058C6702C2234F435</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3FF547B5D7CA7122FFC77C8F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>69CF079DFC013721B50A3EF8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2BD9BBCD0CDCD76A0C4FD13F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6F34DEA9389058F3F93B9970</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DZNWebViewController.h</string>
+			<key>path</key>
+			<string>Source/Classes/DZNWebViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77124B2EDD31A43571D1BB67</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-DZNWebViewController-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77C0667D535E0909871E8EED</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EC56A55EDBDDF2467C190740</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>77C1293EC1045853E9890F1C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>EC9CA13F29828E2A41EF7FF6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>797D09502EBA880224FCB104</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_toolbar_forward@3x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_toolbar_forward@3x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7B4F693050D5379CEAD383AB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -56,76 +595,297 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0DACC45A9A3968BB88295B1F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F7A04F974B44EF76F51DA83</key>
+		<key>7BEFEC1D3363176AA500EED6</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>0487E5D9EA96FCE4429BC0CD</string>
-				<string>D73AE11812B8CB7394BB7840</string>
-				<string>8DFC675EA2E1780F5DE30053</string>
+				<string>A3C79AABED1C735058D73EC6</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>113AA1B782594171F660697C</key>
+		<key>7C9D3F5A208ABC8B0F0675D4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C4649FE3F0F25087E0B9582D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7D5E1F1062506F75CC6109CB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F51C082400401E76F31FCBCF</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-DZNWebViewController/Pods-DZNWebViewController-prefix.pch</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>OTHER_CFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_CPLUSPLUSFLAGS</key>
+				<array>
+					<string>-DNS_BLOCK_ASSERTIONS=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7DF077DE5F6704B25467862E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>es.lproj</string>
+			<string>dzn_icn_toolbar_action.png</string>
 			<key>path</key>
-			<string>Source/Resources/es.lproj</string>
+			<string>Source/Resources/dzn_icn_toolbar_action.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1A9332F5FD668440138331FB</key>
+		<key>8145AF67BCA4DD5287A8AE6E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>5B25D61AA9800BB616F07184</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2CEDB7C2CA6E94C27228A8A7</string>
+				<string>00992094D449B82BFE521790</string>
+				<string>261D7B11D5C334CC3001232E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-DZNWebViewController</string>
+			<key>productName</key>
+			<string>Pods-DZNWebViewController</string>
+			<key>productReference</key>
+			<string>167242C1C6CDE3EC47B3FB40</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>822236213FCC681C17E61870</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4C5D16CBA8587A7E5FE7DC29</string>
+				<string>8D44E7924F66411D7D7118B6</string>
+				<string>F568817304C7FD7C988F8D4A</string>
+				<string>184335DCDEA903E14D9B69A4</string>
+				<string>CD758D411B297D91031A8995</string>
+				<string>5D1330EC72F1909F6DDED80F</string>
+				<string>7B4F693050D5379CEAD383AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>path</key>
+			<string>Target Support Files/Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83633C0014F84EDA90584B18</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_opera@2x~ipad.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_opera@2x~ipad.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83B3DC5AA1B5D106A1ECD845</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_toolbar_stop.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_toolbar_stop.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8D44E7924F66411D7D7118B6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DZNWebView.m</string>
+			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Source/Classes/DZNWebView.m</string>
+			<string>Pods-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1C073CABA7A625550202F5F6</key>
+		<key>944B8DFE58EB10B815B6DD31</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>F51C082400401E76F31FCBCF</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Pods-DZNWebViewController/Pods-DZNWebViewController-prefix.pch</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>dzn_icn_toolbar_stop@3x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_stop@3x.png</string>
+			<string>Debug</string>
+		</dict>
+		<key>987DBCBFDBBCCA5A66034CA7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CD0A5778901D1F5D38C931B2</string>
+				<string>631330A98DE7D3AC6A0F1D78</string>
+				<string>EC9CA13F29828E2A41EF7FF6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1CEDD5E441D9BB84857CFF35</key>
+		<key>9B313F2655F8AF6426C84CF8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D23D81F62ACDAA0D78B22DCA</string>
+				<string>167242C1C6CDE3EC47B3FB40</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A267B8507A4014B520B818E9</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0510</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>F4E5A4CD9F354A711A9BEE96</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>F204D602667ADC04842D0D4F</string>
+			<key>productRefGroup</key>
+			<string>9B313F2655F8AF6426C84CF8</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>060EE6D168CB06AB0907F49D</string>
+				<string>8145AF67BCA4DD5287A8AE6E</string>
+			</array>
+		</dict>
+		<key>A3C79AABED1C735058D73EC6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F568817304C7FD7C988F8D4A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AA4C0AAA4D64776B24FDEDBB</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -187,62 +947,23 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>2086C73C397DDCE8521A4930</key>
+		<key>ACF8F7406C2FE95403DE0104</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>dzn_icn_activity_dolphin@2x.png</string>
+			<string>dzn_icn_toolbar_backward@2x.png</string>
 			<key>path</key>
-			<string>Source/Resources/dzn_icn_activity_dolphin@2x.png</string>
+			<string>Source/Resources/dzn_icn_toolbar_backward@2x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>213F23D6AACA054A6CF8ED06</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4168438A4CAD86F933405329</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27890B0E0F60A0F01829732B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_activity_safari@2x~ipad.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_activity_safari@2x~ipad.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B3AE8113295ADB229CC9FF0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_stop.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_stop.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2EEEF7535F2DEBE3965CACE6</key>
+		<key>AD361AD18726B5814429968E</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>095242BF488A8F4A20919A79</string>
+			<string>7B4F693050D5379CEAD383AB</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -287,7 +1008,72 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>2F218E62092276BF5EA32EB7</key>
+		<key>B20259E709BA1E5E2CB9B864</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Pods-DZNWebViewController</string>
+			<key>target</key>
+			<string>8145AF67BCA4DD5287A8AE6E</string>
+			<key>targetProxy</key>
+			<string>66E5113B0B379652BAA7CA00</string>
+		</dict>
+		<key>C4649FE3F0F25087E0B9582D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>DZNWebView.m</string>
+			<key>path</key>
+			<string>Source/Classes/DZNWebView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C7C7FA4ADEFEF38FE6AA137B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_chrome@2x~ipad.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_chrome@2x~ipad.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CD0A5778901D1F5D38C931B2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>CD758D411B297D91031A8995</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CF67EA2AAA5B5989C537FE07</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -304,33 +1090,196 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>3062C90D4C05DC1BC92F5C33</key>
+		<key>D23D81F62ACDAA0D78B22DCA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>D56CDD786B58B4FF1D2192FF</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>5D1330EC72F1909F6DDED80F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DSTROOT</key>
+				<string>/tmp/xcodeproj.dst</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+				<string>YES</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>INSTALL_PATH</key>
+				<string>$(BUILT_PRODUCTS_DIR)</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>D6F1572F7C8A163BBF469114</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_link@2x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_link@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DA0F7D9CA81A16E97160F44E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4B0D8CA8F9BB1FF5F8FDFF0D</string>
+				<string>3FF547B5D7CA7122FFC77C8F</string>
+				<string>EC56A55EDBDDF2467C190740</string>
+				<string>C4649FE3F0F25087E0B9582D</string>
+				<string>6F34DEA9389058F3F93B9970</string>
+				<string>11A49D7CD845C2046617D881</string>
+				<string>35BC6AFB18B7B05B084F6BBA</string>
+				<string>2F372510FAD32C2AF1851CCA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>DZNWebViewController</string>
+			<key>path</key>
+			<string>../../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DEDC09ACF0D5C9FDA6963F74</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>de.lproj</string>
+			<key>path</key>
+			<string>Source/Resources/de.lproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6BA76B55DC931D7C3FF7632</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>dzn_icn_activity_opera@2x.png</string>
+			<key>path</key>
+			<string>Source/Resources/dzn_icn_activity_opera@2x.png</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E8076C68AC3506FE1F55385F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4B0D8CA8F9BB1FF5F8FDFF0D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EB2E2AB7460D364B0BF4663A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>es.lproj</string>
+			<key>path</key>
+			<string>Source/Resources/es.lproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC4475FC84960C3E274CBC92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>77124B2EDD31A43571D1BB67</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EC56A55EDBDDF2467C190740</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>DZNWebView.h</string>
 			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
+			<string>Source/Classes/DZNWebView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>328AB5B97E5F573901EA8D31</key>
+		<key>EC72286D346A2CFFE781138C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>dzn_icn_toolbar_action@3x.png</string>
 			<key>path</key>
-			<string>Pods-dummy.m</string>
+			<string>Source/Resources/dzn_icn_toolbar_action@3x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>32A8691CCE5C8DBB357B5FC0</key>
+		<key>EC9CA13F29828E2A41EF7FF6</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>WebKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/WebKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>EF18671346DA073675CA3870</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -343,218 +1292,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>37F69048589CE9A058939895</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_backward.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_backward.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38ED5D905D99A1A4C12AF3A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DZNPolyActivity.m</string>
-			<key>path</key>
-			<string>Source/Classes/DZNPolyActivity.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>391D4A1886680F7E00B32102</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BFC1D4DFFBAB78F29204F8E9</string>
-				<string>FDCC6A316EB5C849B564D28D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B6A71D3B6DC1CD8D96E6F99</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>63845E30FDFF6B0A2D5F7DE2</string>
-				<string>64CF6A3769DAA81DDE30D92C</string>
-				<string>7C74F2F59D72FAE4FB7A835D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C8A9983399C79A423E83D10</key>
-		<dict>
-			<key>fileRef</key>
-			<string>63845E30FDFF6B0A2D5F7DE2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4168438A4CAD86F933405329</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E28FED02CAD284B64A9F3802</string>
-				<string>3062C90D4C05DC1BC92F5C33</string>
-				<string>328AB5B97E5F573901EA8D31</string>
-				<string>DD6D330D3DC6DC6E0D962BA0</string>
-				<string>0DACC45A9A3968BB88295B1F</string>
-				<string>8370DDC18944E6FB8BDDE2DE</string>
-				<string>095242BF488A8F4A20919A79</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>path</key>
-			<string>Target Support Files/Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>48397A026870EF225DAD9FC8</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>5D790F91282A36090D604815</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>57A135D563AB4B726118CE6B</string>
-			<key>productRefGroup</key>
-			<string>391D4A1886680F7E00B32102</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>CFB69607408300EB46CCF2C4</string>
-				<string>510A9CB5FF0C20ADB271D147</string>
-			</array>
-		</dict>
-		<key>494BC8531509218887BF2FED</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4A0B754C6A355F62D5F45049</string>
-				<string>5CB5B8617F5CF843D604D9D3</string>
-				<string>EACE9C34C0838DE158655199</string>
-				<string>E6139C4650B95011918E9278</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Examples/Sample/Pods/Target Support Files/Pods-DZNWebViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A0B754C6A355F62D5F45049</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZNWebViewController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4FC4F22EED10A83D805152C6</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>48397A026870EF225DAD9FC8</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>510A9CB5FF0C20ADB271D147</string>
-			<key>remoteInfo</key>
-			<string>Pods-DZNWebViewController</string>
-		</dict>
-		<key>510A9CB5FF0C20ADB271D147</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D99D5343BAC93FE2AFB99AF8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>DB2BDEFF268DBF6B160DE1E4</string>
-				<string>0F7A04F974B44EF76F51DA83</string>
-				<string>78E587F808CB40AF1433C859</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-DZNWebViewController</string>
-			<key>productName</key>
-			<string>Pods-DZNWebViewController</string>
-			<key>productReference</key>
-			<string>FDCC6A316EB5C849B564D28D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>5219E91A07DF4E4030513E3F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_activity_chrome@2x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_activity_chrome@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5295892201D12853DEB4D625</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A9332F5FD668440138331FB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5647F31096325F77BFC86577</key>
+		<key>EFD63726D6A6EFDF9D871E22</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -567,75 +1305,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>57A135D563AB4B726118CE6B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F218E62092276BF5EA32EB7</string>
-				<string>80EEE10890DB4E070099750A</string>
-				<string>782EE7BA80ECCA4B337298F5</string>
-				<string>391D4A1886680F7E00B32102</string>
-				<string>213F23D6AACA054A6CF8ED06</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5CB5B8617F5CF843D604D9D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZNWebViewController-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D790F91282A36090D604815</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>672465B25C4BE95AD9A4EC9F</string>
-				<string>1CEDD5E441D9BB84857CFF35</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>63845E30FDFF6B0A2D5F7DE2</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>64CF6A3769DAA81DDE30D92C</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>672465B25C4BE95AD9A4EC9F</key>
+		<key>F1771922735E3CA9114E0186</key>
 		<dict>
 			<key>buildSettings</key>
 			<dict>
@@ -702,179 +1372,36 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>698F6A15583EE1E399D104D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_activity_chrome@2x~ipad.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_activity_chrome@2x~ipad.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A4B3F3028C4FFFD59281BC8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CE7F5E4E34CF31E28D3CBB0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>764BC888A809802C28A31145</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D71928EE98F2CE49AE4D177A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>782EE7BA80ECCA4B337298F5</key>
+		<key>F204D602667ADC04842D0D4F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>3B6A71D3B6DC1CD8D96E6F99</string>
+				<string>CF67EA2AAA5B5989C537FE07</string>
+				<string>661D528838509E39B7CE74D1</string>
+				<string>F729CA2E30BCD7C2EA8C57BA</string>
+				<string>9B313F2655F8AF6426C84CF8</string>
+				<string>F5D6E8ECBF094FBC9B3C08B2</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>78E587F808CB40AF1433C859</key>
+		<key>F4E5A4CD9F354A711A9BEE96</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>81D72CBD64F182F3EFA098A4</string>
-				<string>764BC888A809802C28A31145</string>
-				<string>6A4B3F3028C4FFFD59281BC8</string>
+				<string>F1771922735E3CA9114E0186</string>
+				<string>AA4C0AAA4D64776B24FDEDBB</string>
 			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
-		</dict>
-		<key>7C74F2F59D72FAE4FB7A835D</key>
-		<dict>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>WebKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/WebKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>7E0F9A4A28F8A96662328843</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DZNWebViewController.m</string>
-			<key>path</key>
-			<string>Source/Classes/DZNWebViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EB6DA0BB67DF01D7D0B59A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>328AB5B97E5F573901EA8D31</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>80EEE10890DB4E070099750A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A6C5C30D055F209A917CEFEE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81D72CBD64F182F3EFA098A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91E5EDF91AB17F5965D21DF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>82BB47471283CEA6172180B8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_activity_link@2x~ipad.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_activity_link@2x~ipad.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>835CB7F2A61ED9726087C42D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5CB5B8617F5CF843D604D9D3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-DZNWebViewController/Pods-DZNWebViewController-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8370DDC18944E6FB8BDDE2DE</key>
+		<key>F51C082400401E76F31FCBCF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -883,427 +1410,55 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods.debug.xcconfig</string>
+			<string>Pods-DZNWebViewController-Private.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8CE7F5E4E34CF31E28D3CBB0</key>
+		<key>F568817304C7FD7C988F8D4A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DZNWebViewController.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Source/Classes/DZNWebViewController.h</string>
+			<string>Pods-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8DFC675EA2E1780F5DE30053</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C74F2F59D72FAE4FB7A835D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91966798A99DDE36CE46E85D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3C8A9983399C79A423E83D10</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>91E5EDF91AB17F5965D21DF9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DZNPolyActivity.h</string>
-			<key>path</key>
-			<string>Source/Classes/DZNPolyActivity.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92BC1E5743B04516E07E9A3B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_reload@2x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_reload@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9D14F82F990E9AA2D5823C38</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_action@3x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_action@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0A18D7D03CEDB4560A128B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_reload.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_reload.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A133B5E16EFF34F7FA4A106B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_backward@2x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_backward@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1D686FA5AE0FD0B6435463F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>5CB5B8617F5CF843D604D9D3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-DZNWebViewController/Pods-DZNWebViewController-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A36F44A01A8A87EEDCF4B6B2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7E0F9A4A28F8A96662328843</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A6C5C30D055F209A917CEFEE</key>
+		<key>F5D6E8ECBF094FBC9B3C08B2</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>91E5EDF91AB17F5965D21DF9</string>
-				<string>38ED5D905D99A1A4C12AF3A1</string>
-				<string>D71928EE98F2CE49AE4D177A</string>
-				<string>1A9332F5FD668440138331FB</string>
-				<string>8CE7F5E4E34CF31E28D3CBB0</string>
-				<string>7E0F9A4A28F8A96662328843</string>
-				<string>D0BC4E4D2311B1FC2EA85EEC</string>
-				<string>494BC8531509218887BF2FED</string>
+				<string>822236213FCC681C17E61870</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>DZNWebViewController</string>
-			<key>path</key>
-			<string>../../..</string>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A79B0B22CA2793402C5401CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_stop@2x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_stop@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0F0ADD69F61494B1949588C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>en.lproj</string>
-			<key>path</key>
-			<string>Source/Resources/en.lproj</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B2EB7F162123E487558C117B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7EB6DA0BB67DF01D7D0B59A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>BB34055428817103BAF24E2E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>de.lproj</string>
-			<key>path</key>
-			<string>Source/Resources/de.lproj</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BB3B245C8B56B0FD5B9C0333</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_reload@3x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_reload@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BBCBF3EDDAF2B802B969DA54</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EACE9C34C0838DE158655199</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BFC1D4DFFBAB78F29204F8E9</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C32FF9A7B30A170A4991F994</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8370DDC18944E6FB8BDDE2DE</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>C4D64209A8C05F0974119730</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_activity_link@2x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_activity_link@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CAB60B9292C998ADED0040A4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>38ED5D905D99A1A4C12AF3A1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CC9AB4683B250E35E3DDF08D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_forward@2x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_forward@2x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CFB69607408300EB46CCF2C4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D5F4184E36BCD84497E5DA80</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B2EB7F162123E487558C117B</string>
-				<string>91966798A99DDE36CE46E85D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E4AD389764A486F43835DA23</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>BFC1D4DFFBAB78F29204F8E9</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>D0BC4E4D2311B1FC2EA85EEC</key>
+		<key>F729CA2E30BCD7C2EA8C57BA</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>BB34055428817103BAF24E2E</string>
-				<string>5219E91A07DF4E4030513E3F</string>
-				<string>698F6A15583EE1E399D104D1</string>
-				<string>2086C73C397DDCE8521A4930</string>
-				<string>00983AC31D1D327E79172C09</string>
-				<string>C4D64209A8C05F0974119730</string>
-				<string>82BB47471283CEA6172180B8</string>
-				<string>E1EA39940310A32CA50A7BBD</string>
-				<string>D8BF1A8A57EE5DC4E02A8C35</string>
-				<string>27890B0E0F60A0F01829732B</string>
-				<string>04C448F33EFD7ECBBFACBF92</string>
-				<string>32A8691CCE5C8DBB357B5FC0</string>
-				<string>9D14F82F990E9AA2D5823C38</string>
-				<string>37F69048589CE9A058939895</string>
-				<string>A133B5E16EFF34F7FA4A106B</string>
-				<string>DB7ED8C8E46C0B8955702276</string>
-				<string>5647F31096325F77BFC86577</string>
-				<string>CC9AB4683B250E35E3DDF08D</string>
-				<string>EBBE713937F36048B2ABFDD0</string>
-				<string>A0A18D7D03CEDB4560A128B9</string>
-				<string>92BC1E5743B04516E07E9A3B</string>
-				<string>BB3B245C8B56B0FD5B9C0333</string>
-				<string>2B3AE8113295ADB229CC9FF0</string>
-				<string>A79B0B22CA2793402C5401CA</string>
-				<string>1C073CABA7A625550202F5F6</string>
-				<string>B0F0ADD69F61494B1949588C</string>
-				<string>113AA1B782594171F660697C</string>
+				<string>987DBCBFDBBCCA5A66034CA7</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Resources</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D5F4184E36BCD84497E5DA80</key>
+		<key>F9F02554DD20416666AE8F68</key>
 		<dict>
 			<key>buildConfigurations</key>
 			<array>
-				<string>C32FF9A7B30A170A4991F994</string>
-				<string>2EEEF7535F2DEBE3965CACE6</string>
+				<string>D56CDD786B58B4FF1D2192FF</string>
+				<string>AD361AD18726B5814429968E</string>
 			</array>
 			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
@@ -1312,72 +1467,20 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>D71928EE98F2CE49AE4D177A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DZNWebView.h</string>
-			<key>path</key>
-			<string>Source/Classes/DZNWebView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D73AE11812B8CB7394BB7840</key>
-		<dict>
-			<key>fileRef</key>
-			<string>64CF6A3769DAA81DDE30D92C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D8BF1A8A57EE5DC4E02A8C35</key>
+		<key>FAD64E9115270D63A618110D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>dzn_icn_activity_opera@2x~ipad.png</string>
+			<string>dzn_icn_toolbar_stop@3x.png</string>
 			<key>path</key>
-			<string>Source/Resources/dzn_icn_activity_opera@2x~ipad.png</string>
+			<string>Source/Resources/dzn_icn_toolbar_stop@3x.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D99D5343BAC93FE2AFB99AF8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>835CB7F2A61ED9726087C42D</string>
-				<string>A1D686FA5AE0FD0B6435463F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>DB2BDEFF268DBF6B160DE1E4</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>CAB60B9292C998ADED0040A4</string>
-				<string>5295892201D12853DEB4D625</string>
-				<string>A36F44A01A8A87EEDCF4B6B2</string>
-				<string>BBCBF3EDDAF2B802B969DA54</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DB7ED8C8E46C0B8955702276</key>
+		<key>FC694D639C08E81FDD3ED757</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1390,110 +1493,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DD6D330D3DC6DC6E0D962BA0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1EA39940310A32CA50A7BBD</key>
+		<key>FCB28C339A32828D635E49A0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>dzn_icn_activity_opera@2x.png</string>
+			<string>dzn_icn_toolbar_backward.png</string>
 			<key>path</key>
-			<string>Source/Resources/dzn_icn_activity_opera@2x.png</string>
+			<string>Source/Resources/dzn_icn_toolbar_backward.png</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E28FED02CAD284B64A9F3802</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E4AD389764A486F43835DA23</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-DZNWebViewController</string>
-			<key>target</key>
-			<string>510A9CB5FF0C20ADB271D147</string>
-			<key>targetProxy</key>
-			<string>4FC4F22EED10A83D805152C6</string>
-		</dict>
-		<key>E6139C4650B95011918E9278</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-DZNWebViewController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EACE9C34C0838DE158655199</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-DZNWebViewController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EBBE713937F36048B2ABFDD0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>dzn_icn_toolbar_forward@3x.png</string>
-			<key>path</key>
-			<string>Source/Resources/dzn_icn_toolbar_forward@3x.png</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDCC6A316EB5C849B564D28D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-DZNWebViewController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>48397A026870EF225DAD9FC8</string>
+	<string>A267B8507A4014B520B818E9</string>
 </dict>
 </plist>

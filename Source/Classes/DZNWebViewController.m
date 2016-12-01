@@ -31,6 +31,8 @@ static char DZNWebViewControllerKVOContext = 0;
 @property (nonatomic, weak) UINavigationBar *navigationBar;
 @property (nonatomic, weak) UIView *navigationBarSuperView;
 
+@property (nonatomic) BOOL completedInitialLoad;
+
 @end
 
 @implementation DZNWebViewController
@@ -70,9 +72,20 @@ static char DZNWebViewControllerKVOContext = 0;
 {
     self.supportedWebNavigationTools = DZNWebNavigationToolAll;
     self.supportedWebActions = DZNWebActionAll;
+    self.webNavigationPrompt = DZNWebNavigationPromptAll;
     self.showLoadingProgress = YES;
     self.hideBarsWithGestures = YES;
     self.allowHistory = YES;
+    
+    self.webView = [[DZNWebView alloc] initWithFrame:self.view.bounds configuration:[WKWebViewConfiguration new]];
+    self.webView.backgroundColor = [UIColor whiteColor];
+    self.webView.allowsBackForwardNavigationGestures = YES;
+    self.webView.UIDelegate = self;
+    self.webView.navDelegate = self;
+    self.webView.scrollView.delegate = self;
+    
+    [self.webView addObserver:self forKeyPath:@"loading" options:NSKeyValueObservingOptionNew context:&DZNWebViewControllerKVOContext];
+    self.completedInitialLoad = NO;
 }
 
 
@@ -95,12 +108,13 @@ static char DZNWebViewControllerKVOContext = 0;
 {
     [super viewWillAppear:animated];
     
-    [UIView performWithoutAnimation:^{
-        static dispatch_once_t willAppearConfig;
-        dispatch_once(&willAppearConfig, ^{
+    if (!self.completedInitialLoad) {
+        
+        [UIView performWithoutAnimation:^{
             [self configureToolBars];
-        });
-    }];
+        }];
+        self.completedInitialLoad = YES;
+    }
     
     if (!self.webView.URL) {
         [self loadURL:self.URL];
@@ -217,6 +231,7 @@ static char DZNWebViewControllerKVOContext = 0;
     if (!_actionBarItem)
     {
         _actionBarItem = [[UIBarButtonItem alloc] initWithImage:[self actionButtonImage] landscapeImagePhone:nil style:0 target:self action:@selector(presentActivityController:)];
+        _actionBarItem.accessibilityLabel = NSLocalizedStringFromTable(@"Share", @"DZNWebViewController", @"Accessibility label button title");
         _actionBarItem.enabled = NO;
     }
     return _actionBarItem;
@@ -258,7 +273,7 @@ static char DZNWebViewControllerKVOContext = 0;
 - (UIImage *)backwardButtonImage
 {
     if (!_backwardButtonImage) {
-        _backwardButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_backward"];
+        _backwardButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_backward" inBundle:[NSBundle bundleForClass:[DZNWebViewController class]] compatibleWithTraitCollection:nil];
     }
     return _backwardButtonImage;
 }
@@ -266,7 +281,7 @@ static char DZNWebViewControllerKVOContext = 0;
 - (UIImage *)forwardButtonImage
 {
     if (!_forwardButtonImage) {
-        _forwardButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_forward"];
+        _forwardButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_forward" inBundle:[NSBundle bundleForClass:[DZNWebViewController class]] compatibleWithTraitCollection:nil];
     }
     return _forwardButtonImage;
 }
@@ -274,7 +289,7 @@ static char DZNWebViewControllerKVOContext = 0;
 - (UIImage *)reloadButtonImage
 {
     if (!_reloadButtonImage) {
-        _reloadButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_reload"];
+        _reloadButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_reload" inBundle:[NSBundle bundleForClass:[DZNWebViewController class]] compatibleWithTraitCollection:nil];
     }
     return _reloadButtonImage;
 }
@@ -282,7 +297,7 @@ static char DZNWebViewControllerKVOContext = 0;
 - (UIImage *)stopButtonImage
 {
     if (!_stopButtonImage) {
-        _stopButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_stop"];
+        _stopButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_stop" inBundle:[NSBundle bundleForClass:[DZNWebViewController class]] compatibleWithTraitCollection:nil];
     }
     return _stopButtonImage;
 }
@@ -290,7 +305,7 @@ static char DZNWebViewControllerKVOContext = 0;
 - (UIImage *)actionButtonImage
 {
     if (!_actionButtonImage) {
-        _actionButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_action"];
+        _actionButtonImage = [UIImage imageNamed:@"dzn_icn_toolbar_action" inBundle:[NSBundle bundleForClass:[DZNWebViewController class]] compatibleWithTraitCollection:nil];
     }
     return _actionButtonImage;
 }
@@ -374,6 +389,11 @@ static char DZNWebViewControllerKVOContext = 0;
 
 - (void)setTitle:(NSString *)title
 {
+    if (self.webNavigationPrompt == DZNWebNavigationPromptNone) {
+        [super setTitle:title];
+        return;
+    }
+    
     NSString *url = self.webView.URL.absoluteString;
     
     UILabel *label = (UILabel *)self.navigationItem.titleView;
@@ -386,32 +406,30 @@ static char DZNWebViewControllerKVOContext = 0;
         self.navigationItem.titleView = label;
     }
     
-    if (title.length == 0) {
-        label.attributedText = nil;
-        return;
+    UIFont *titleFont = self.navigationBar.titleTextAttributes[NSFontAttributeName] ? : [UIFont boldSystemFontOfSize:14.0];
+    UIFont *urlFont = [UIFont fontWithName:titleFont.fontName size:titleFont.pointSize-2.0];
+    UIColor *textColor = self.navigationBar.titleTextAttributes[NSForegroundColorAttributeName] ? : [UIColor blackColor];
+    
+    NSMutableString *text = [NSMutableString new];
+    
+    if (title.length > 0 && self.showNavigationPromptTitle) {
+        [text appendFormat:@"%@", title];
+        
+        if (url.length > 0 && self.showNavigationPromptURL) {
+            [text appendFormat:@"\n"];
+        }
     }
     
-    UIFont *titleFont = [UIFont boldSystemFontOfSize:12.0];
-    UIFont *urlFont = [UIFont systemFontOfSize:10.0];
-    UIColor *textColor = [UIColor blackColor];
-    
-    if (self.navigationBar.titleTextAttributes) {
-        titleFont = self.navigationBar.titleTextAttributes[NSFontAttributeName];
-        urlFont = [UIFont fontWithName:titleFont.fontName size:titleFont.pointSize-2.0];
-        textColor = self.navigationBar.titleTextAttributes[NSForegroundColorAttributeName];
-    }
-    
-    NSMutableString *text = [NSMutableString stringWithString:title];
-    
-    if (url.length > 0) {
-        [text appendFormat:@"\n%@", url];
+    if (url.length > 0 && self.showNavigationPromptURL) {
+        [text appendFormat:@"%@", url];
     }
     
     NSDictionary *attributes = @{NSFontAttributeName: titleFont, NSForegroundColorAttributeName: textColor};
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:text attributes:attributes];
-    
-    if (url.length > 0) {
-        [attributedString addAttribute:NSFontAttributeName value:urlFont range:[text rangeOfString:url]];
+    NSRange urlRange = [text rangeOfString:url];
+
+    if (urlRange.location != NSNotFound && self.showNavigationPromptTitle) {
+        [attributedString addAttribute:NSFontAttributeName value:urlFont range:urlRange];
     }
     
     label.attributedText = attributedString;
@@ -436,16 +454,38 @@ static char DZNWebViewControllerKVOContext = 0;
     [alert show];
 }
 
+- (BOOL)showNavigationPromptTitle
+{
+    if ((self.webNavigationPrompt & DZNWebNavigationPromptTitle) > 0 || self.webNavigationPrompt == DZNWebNavigationPromptAll) {
+        return YES;
+    }
+    return NO;
+}
+
+- (BOOL)showNavigationPromptURL
+{
+    if ((self.webNavigationPrompt & DZNWebNavigationPromptURL) > 0 || self.webNavigationPrompt == DZNWebNavigationPromptAll) {
+        return YES;
+    }
+    return NO;
+}
+
 
 #pragma mark - DZNWebViewController methods
 
 - (void)loadURL:(NSURL *)URL
 {
+    NSURL *baseURL = [[NSURL alloc] initFileURLWithPath:URL.path.stringByDeletingLastPathComponent isDirectory:YES];
+    [self loadURL:URL baseURL:baseURL];
+}
+
+- (void)loadURL:(NSURL *)URL baseURL:(NSURL *)baseURL
+{
     if ([URL isFileURL]) {
         NSData *data = [[NSData alloc] initWithContentsOfURL:URL];
         NSString *HTMLString = [[NSString alloc] initWithData:data encoding:NSStringEncodingConversionAllowLossy];
-        
-        [self.webView loadHTMLString:HTMLString baseURL:nil];
+
+        [self.webView loadHTMLString:HTMLString baseURL:baseURL];
     }
     else {
         NSURLRequest *request = [[NSURLRequest alloc] initWithURL:URL];
@@ -684,16 +724,20 @@ static char DZNWebViewControllerKVOContext = 0;
 
 - (void)webView:(DZNWebView *)webView didFinishNavigation:(WKNavigation *)navigation
 {
-    [self updateToolbarItems];
-    
-    self.title = self.webView.title;
+    if (self.webNavigationPrompt > DZNWebNavigationPromptNone) {
+        self.title = self.webView.title;
+    }
 }
 
 - (void)webView:(DZNWebView *)webView didFailNavigation:(WKNavigation *)navigation withError:(NSError *)error
 {
-    [self updateToolbarItems];
     [self setLoadingError:error];
     
+    // if this is a cancelled error, then don't affect the title
+    switch (error.code) {
+        case NSURLErrorCancelled:   return;
+    }
+
     self.title = nil;
 }
 
@@ -824,12 +868,20 @@ static char DZNWebViewControllerKVOContext = 0;
             }
         }
     }
+    
+    if ([object isEqual:self.webView] && [keyPath isEqualToString:@"loading"]) {
+        [self updateToolbarItems];
+    }
 }
 
 
 #pragma mark - View Auto-Rotation
 
+#ifdef __IPHONE_9_0
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations
+#else
 - (NSUInteger)supportedInterfaceOrientations
+#endif
 {
     return UIInterfaceOrientationMaskAll;
 }
@@ -854,9 +906,12 @@ static char DZNWebViewControllerKVOContext = 0;
 
 - (void)dealloc
 {
-    [self.navigationBar removeObserver:self forKeyPath:@"hidden" context:&DZNWebViewControllerKVOContext];
-    [self.navigationBar removeObserver:self forKeyPath:@"center" context:&DZNWebViewControllerKVOContext];
-    [self.navigationBar removeObserver:self forKeyPath:@"alpha" context:&DZNWebViewControllerKVOContext];
+    if (self.hideBarsWithGestures) {
+        [self.navigationBar removeObserver:self forKeyPath:@"hidden" context:&DZNWebViewControllerKVOContext];
+        [self.navigationBar removeObserver:self forKeyPath:@"center" context:&DZNWebViewControllerKVOContext];
+        [self.navigationBar removeObserver:self forKeyPath:@"alpha" context:&DZNWebViewControllerKVOContext];
+    }
+    [self.webView removeObserver:self forKeyPath:@"loading" context:&DZNWebViewControllerKVOContext];
     
     _backwardBarItem = nil;
     _forwardBarItem = nil;
@@ -867,8 +922,10 @@ static char DZNWebViewControllerKVOContext = 0;
     _backwardLongPress = nil;
     _forwardLongPress = nil;
     
+    _webView.scrollView.delegate = nil;
     _webView.navDelegate = nil;
     _webView.UIDelegate = nil;
+    _webView.scrollView.delegate = nil;
     _webView = nil;
     _URL = nil;
 }
