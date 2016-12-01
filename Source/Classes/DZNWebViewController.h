@@ -95,6 +95,8 @@ typedef NS_OPTIONS(NSUInteger, DZNWebNavigationPrompt) {
  */
 - (instancetype)initWithURL:(NSURL *)URL;
 
+- (instancetype)initWithURL:(NSURL *)URL withDelegate:(id)delegate;
+
 /**
  Initializes and returns a newly created webview controller for local HTML navigation.
  

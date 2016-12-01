@@ -47,6 +47,21 @@ static char DZNWebViewControllerKVOContext = 0;
     return self;
 }
 
+- (instancetype)initWithURL:(NSURL *)URL withDelegate:(id)delegate
+{
+    NSParameterAssert(URL);
+    
+    self = [super init];
+    if (self) {
+        _delegate = delegate;
+        [self commonInit];
+    }
+    if (self) {
+        _URL = URL;
+    }
+    return self;
+}
+
 - (instancetype)initWithURL:(NSURL *)URL
 {
     NSParameterAssert(URL);
