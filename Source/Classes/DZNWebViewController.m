@@ -100,7 +100,7 @@ static char DZNWebViewControllerKVOContext = 0;
         webViewConfiguration = [WKWebViewConfiguration new];
     }
 
-    self.webView = [[DZNWebView alloc] initWithFrame:self.view.bounds configuration:webViewConfiguration];
+    self.webView = [[DZNWebView alloc] initWithFrame:CGRectZero configuration:webViewConfiguration];
     self.webView.backgroundColor = [UIColor whiteColor];
     self.webView.allowsBackForwardNavigationGestures = YES;
     self.webView.UIDelegate = self;
