@@ -109,7 +109,12 @@ static char DZNWebViewControllerKVOContext = 0;
     
 
     
+    
     [self.webView addObserver:self forKeyPath:@"loading" options:NSKeyValueObservingOptionNew context:&DZNWebViewControllerKVOContext];
+    [self.webView addObserver:self forKeyPath:@"canGoBack" options:NSKeyValueObservingOptionNew context:&DZNWebViewControllerKVOContext];
+    [self.webView addObserver:self forKeyPath:@"canGoForward" options:NSKeyValueObservingOptionNew context:&DZNWebViewControllerKVOContext];
+
+    
     self.completedInitialLoad = NO;
 }
 
@@ -894,9 +899,12 @@ static char DZNWebViewControllerKVOContext = 0;
         }
     }
     
-    if ([object isEqual:self.webView] && [keyPath isEqualToString:@"loading"]) {
-        [self updateToolbarItems];
-    }
+    if ([object isEqual:self.webView] &&
+        ([keyPath isEqualToString:@"loading"]
+         || [keyPath isEqualToString:@"canGoBack"]
+         || [keyPath isEqualToString:@"canGoForward"]) ) {
+            [self updateToolbarItems];
+        }
 }
 
 
