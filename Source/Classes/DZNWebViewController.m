@@ -77,12 +77,23 @@ static char DZNWebViewControllerKVOContext = 0;
     self.hideBarsWithGestures = YES;
     self.allowHistory = YES;
     
-    self.webView = [[DZNWebView alloc] initWithFrame:self.view.bounds configuration:[WKWebViewConfiguration new]];
+    WKWebViewConfiguration *webViewConfiguration = nil;
+    if (_delegate && [_delegate respondsToSelector:@selector(loadWebViewConfiguration)]) {
+        webViewConfiguration = [_delegate loadWebViewConfiguration];
+    }
+    else
+    {
+        webViewConfiguration = [WKWebViewConfiguration new];
+    }
+
+    self.webView = [[DZNWebView alloc] initWithFrame:self.view.bounds configuration:webViewConfiguration];
     self.webView.backgroundColor = [UIColor whiteColor];
     self.webView.allowsBackForwardNavigationGestures = YES;
     self.webView.UIDelegate = self;
     self.webView.navDelegate = self;
     self.webView.scrollView.delegate = self;
+    
+
     
     [self.webView addObserver:self forKeyPath:@"loading" options:NSKeyValueObservingOptionNew context:&DZNWebViewControllerKVOContext];
     self.completedInitialLoad = NO;
