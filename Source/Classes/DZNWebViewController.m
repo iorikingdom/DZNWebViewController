@@ -54,10 +54,9 @@ static char DZNWebViewControllerKVOContext = 0;
     self = [super init];
     if (self) {
         _delegate = delegate;
-        [self commonInit];
-    }
-    if (self) {
         _URL = URL;
+        [self commonInit];
+
     }
     return self;
 }
