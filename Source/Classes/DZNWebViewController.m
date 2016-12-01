@@ -173,32 +173,32 @@ static char DZNWebViewControllerKVOContext = 0;
 
 #pragma mark - Getter methods
 
-- (DZNWebView *)webView
-{
-    if (!_webView)
-    {
-        WKWebViewConfiguration *webViewConfiguration = nil;
-        if (_delegate && [_delegate respondsToSelector:@selector(loadWebViewConfiguration)]) {
-            webViewConfiguration = [_delegate loadWebViewConfiguration];
-        }
-        else
-        {
-            webViewConfiguration = [WKWebViewConfiguration new];
-        }
-        
-        DZNWebView *webView = [[DZNWebView alloc] initWithFrame:self.view.bounds configuration:webViewConfiguration];
-        
-        
-        webView.backgroundColor = [UIColor whiteColor];
-        webView.allowsBackForwardNavigationGestures = YES;
-        webView.UIDelegate = self;
-        webView.navDelegate = self;
-        webView.scrollView.delegate = self;
-        
-        _webView = webView;
-    }
-    return _webView;
-}
+//- (DZNWebView *)webView
+//{
+//    if (!_webView)
+//    {
+//        WKWebViewConfiguration *webViewConfiguration = nil;
+//        if (_delegate && [_delegate respondsToSelector:@selector(loadWebViewConfiguration)]) {
+//            webViewConfiguration = [_delegate loadWebViewConfiguration];
+//        }
+//        else
+//        {
+//            webViewConfiguration = [WKWebViewConfiguration new];
+//        }
+//        
+//        DZNWebView *webView = [[DZNWebView alloc] initWithFrame:self.view.bounds configuration:webViewConfiguration];
+//        
+//        
+//        webView.backgroundColor = [UIColor whiteColor];
+//        webView.allowsBackForwardNavigationGestures = YES;
+//        webView.UIDelegate = self;
+//        webView.navDelegate = self;
+//        webView.scrollView.delegate = self;
+//        
+//        _webView = webView;
+//    }
+//    return _webView;
+//}
 
 - (UIProgressView *)progressView
 {
